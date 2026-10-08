@@ -1,0 +1,7 @@
+[2026-09-23 00:00] fix 修复 MailerModule 异步配置类型错误
+- 改动文件：src/app.module.ts、process.txt
+- 改动说明：为 MailerModule.forRootAsync 补充 ConfigModule imports，满足 MailerAsyncOptions 的类型要求。
+
+[2026-09-22 19:45] fix 注册文档审核实体
+- 改动文件：src/app.module.ts
+- 改动说明：将 DocumentReviewEntity 加入 TypeORM PostgreSQL DataSource 的实体列表，修复发布文档时 EntityMetadataNotFoundError。

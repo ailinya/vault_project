@@ -6,22 +6,10 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 import { bigintTransformer } from '../../common/transformers/bigint.transformer';
+import { DocumentStatus } from '../document-status';
 
-/** 文档状态 */
-export enum DocumentStatus {
-  /** 草稿 */
-  Draft = 0,
-  /** 已发布 */
-  Published = 1,
-  /** 已归档：不会作为知识被检索 */
-  Archived = 2,
-}
-/** 这个entity对应的表是 kh_document，存储文档的元数据，文档内容存储在 MongoDB 的 document_content 集合中。
- * TypeORM把这个entity映射到PostgreSQL的kh_document表中，表中的每一行对应一个文档的元数据。
- * 不用typeorm 用SQL语句直接操作PostgreSQL的kh_document表也可以，但使用TypeORM可以更方便地进行增删改查操作，有了 TypeORM，你就像在操作普通的 JavaScript 对象一样同时还能利用TypeScript的类型检查和自动补全功能。  
- * typeorm的三个核心概念Entity、Column、Repository，Entity对应数据库表，Column对应表中的列，Repository提供对实体的增删改查操作。
- * 
- */
+/** 兼容旧 import 路径：import { DocumentStatus } from './entities/document.entity' */
+export { DocumentStatus };
 
 /** 文档元数据（PostgreSQL kh_document） */
 @Entity('kh_document')
@@ -77,7 +65,7 @@ export class DocumentEntity {
   @Column({ type: 'varchar', nullable: true })
   tags?: string | null;
 
-  /** 状态：0 草稿 / 1 已发布 / 2 已归档 */
+  /** 状态：0 草稿 / 1 已发布 / 2 已归档 / 3 待审核 */
   @Column({ type: 'smallint', default: DocumentStatus.Draft })
   status: DocumentStatus;
 

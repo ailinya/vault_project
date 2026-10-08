@@ -4,10 +4,6 @@ import { HydratedDocument, Types } from 'mongoose';
 export type DocumentContentDocument = HydratedDocument<DocumentContent>;
 
 /**
- * mongoose是一个MongoDB的对象建模工具，提供了schema和model的概念，类似于TypeORM的Entity和Repository。
- * 
- * 这个schema对应的集合是 document_content，存储文档的正文内容。
- * 操作mogodb的数据库对象
  * 文档正文（MongoDB）
  * 与 Postgres kh_document 一对一：_id ↔ content_id，documentId ↔ id
  */
