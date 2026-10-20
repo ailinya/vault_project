@@ -1,3 +1,6 @@
 allowBuilds:
+  '@parcel/watcher': set this to true or false
+  better-sqlite3: set this to true or false
   core-js: true
   tesseract.js: false
+  unrs-resolver: set this to true or false

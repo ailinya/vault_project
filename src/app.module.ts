@@ -33,7 +33,6 @@ import { AiMessageEntity } from './ai/entities/ai-message.entity';
     ConfigModule.forRoot({ isGlobal: true }),
     RedisModule,
     MailerModule.forRootAsync({
-      imports: [ConfigModule],
       inject: [ConfigService],
       useFactory: (configService: ConfigService) => ({
         transport: {

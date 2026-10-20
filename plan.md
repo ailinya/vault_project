@@ -1,4 +1,22 @@
-# 当前任务：允许相对 import 省略扩展名
+# 当前任务：修复编译成功但 dist/main 缺失
+
+状态：用户已 GO，配置修改与构建验证完成。
+
+研究结论：tsconfig.build.json 已将 rootDir 设为 src，启动路径 dist/main 正确。现场 dist 仅有部分声明文件，缺失 main.js；TypeScript 开启 incremental，默认缓存 tsconfig.build.tsbuildinfo 在项目根目录。已核对本地 Nest CLI：deleteOutDir 会删除 dist，但只有显式配置 tsBuildInfoFile 时才同时删除缓存。缓存与产物不一致最可能导致本次缺失。检查期间 dist 又消失，验证前需要停止已有 watch 进程，避免并发构建干扰。
+
+- [x] 修改 tsconfig.build.json：在 compilerOptions 中显式设置 tsBuildInfoFile 为 ./dist/tsconfig.build.tsbuildinfo，使缓存随输出目录一起清理，保留增量编译。
+- [x] 连续两次 Nest build 成功，均确认生成 dist/main.js 与 dist/tsconfig.build.tsbuildinfo；两次 node --check dist/main.js 均通过。
+- [x] 未出现 TypeScript 编译错误。首次尝试清理 dist/team 时发生 ENOTEMPTY，随后重试及第二次构建均成功；可能有并行 watch 干扰，进程命令行查询被系统拒绝访问，未终止用户进程。
+
+补充复核：分开执行检查时曾发现 dist 再次被删除。随后在同一条命令内连续完成两轮构建、入口与缓存存在性检查和 node --check，均通过。需要重启用户现有 watch 进程以加载新配置，避免旧进程继续干扰输出。
+
+验证范围：确认入口产物及语法，未启动连接真实数据库、消息队列等外部服务的应用，因此不宣称完整运行时验证通过。
+
+影响：仅调整构建缓存路径；不修改业务代码、启动脚本、公共接口或依赖，不执行 Git 提交。项目根目录的旧缓存保留，配置修改后不再读取它。
+
+---
+
+# 历史任务：允许相对 import 省略扩展名
 
 状态：用户已 GO，配置调整完成；完整构建被原有 snowflake-id 类型缺失阻挡。以下历史方案不属于本次执行范围。
 
