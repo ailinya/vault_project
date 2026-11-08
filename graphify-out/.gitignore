@@ -1,0 +1,4 @@
+# Local extraction dependencies are runtime artifacts, not graph data.
+.deps/
+deps-local/
+__pycache__/

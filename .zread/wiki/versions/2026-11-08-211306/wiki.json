@@ -1,0 +1,242 @@
+{
+  "id": "2026-11-08-211306",
+  "generated_at": "2026-11-08T13:13:06.6853841Z",
+  "language": "zh",
+  "pages": [
+    {
+      "slug": "1-overview",
+      "title": "Overview",
+      "file": "1-overview.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-quick-start",
+      "title": "Quick Start",
+      "file": "2-quick-start.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-huan-jing-pei-zhi-zhi-nan-shu-ju-ku-zhong-jian-jian-mo-xing-fu-wu-yu-ke-xuan-neng-li",
+      "title": "环境配置指南：数据库、中间件、模型服务与可选能力",
+      "file": "3-huan-jing-pei-zhi-zhi-nan-shu-ju-ku-zhong-jian-jian-mo-xing-fu-wu-yu-ke-xuan-neng-li.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "4-shou-ci-zhi-shi-ru-ku-deng-lu-shang-chuan-shen-he-fa-bu-yu-jian-suo-wen-da",
+      "title": "首次知识入库：登录、上传、审核发布与检索问答",
+      "file": "4-shou-ci-zhi-shi-ru-ku-deng-lu-shang-chuan-shen-he-fa-bu-yu-jian-suo-wen-da.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "5-jie-kou-lian-diao-ru-men-ren-zheng-ping-ju-can-shu-xiao-yan-yu-liu-shi-xiang-ying",
+      "title": "接口联调入门：认证凭据、参数校验与流式响应",
+      "file": "5-jie-kou-lian-diao-ru-men-ren-zheng-ping-ju-can-shu-xiao-yan-yu-liu-shi-xiang-ying.md",
+      "section": "Get Started",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "6-mo-kuai-hua-hou-duan-jia-gou-yi-lai-zhu-ru-ye-wu-bian-jie-yu-qing-qiu-sheng-ming-zhou-qi",
+      "title": "模块化后端架构：依赖注入、业务边界与请求生命周期",
+      "file": "6-mo-kuai-hua-hou-duan-jia-gou-yi-lai-zhu-ru-ye-wu-bian-jie-yu-qing-qiu-sheng-ming-zhou-qi.md",
+      "section": "Deep Dive",
+      "group": "系统架构与数据设计",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "7-duo-cun-chu-xie-zuo-guan-xi-shu-ju-wen-dang-zheng-wen-dui-xiang-wen-jian-yu-jian-suo-suo-yin",
+      "title": "多存储协作：关系数据、文档正文、对象文件与检索索引",
+      "file": "7-duo-cun-chu-xie-zuo-guan-xi-shu-ju-wen-dang-zheng-wen-dui-xiang-wen-jian-yu-jian-suo-suo-yin.md",
+      "section": "Deep Dive",
+      "group": "系统架构与数据设计",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-shu-ju-chu-shi-hua-yu-shi-ti-ying-she-biao-jie-gou-xue-hua-biao-shi-yu-ban-ben-yan-jin",
+      "title": "数据初始化与实体映射：表结构、雪花标识与版本演进",
+      "file": "8-shu-ju-chu-shi-hua-yu-shi-ti-ying-she-biao-jie-gou-xue-hua-biao-shi-yu-ban-ben-yan-jin.md",
+      "section": "Deep Dive",
+      "group": "系统架构与数据设计",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-zhang-hao-an-quan-zhu-ce-deng-lu-you-jian-ji-huo-mi-ma-zhong-zhi-yu-ling-pai-yan-zheng",
+      "title": "账号安全：注册登录、邮件激活、密码重置与令牌验证",
+      "file": "9-zhang-hao-an-quan-zhu-ce-deng-lu-you-jian-ji-huo-mi-ma-zhong-zhi-yu-ling-pai-yan-zheng.md",
+      "section": "Deep Dive",
+      "group": "身份认证与协作权限",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "10-yong-hu-jiao-se-yu-quan-xian-shou-quan-mo-xing-yu-jie-kou-shou-wei",
+      "title": "用户、角色与权限：授权模型与接口守卫",
+      "file": "10-yong-hu-jiao-se-yu-quan-xian-shou-quan-mo-xing-yu-jie-kou-shou-wei.md",
+      "section": "Deep Dive",
+      "group": "身份认证与协作权限",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "11-tuan-dui-xie-zuo-yu-wen-dang-ke-jian-xing-ye-wu-du-qu-quan-wen-jian-suo-he-tu-pu-cha-xun-de-quan-xian-zhi-xing",
+      "title": "团队协作与文档可见性：业务读取、全文检索和图谱查询的权限一致性",
+      "file": "11-tuan-dui-xie-zuo-yu-wen-dang-ke-jian-xing-ye-wu-du-qu-quan-wen-jian-suo-he-tu-pu-cha-xun-de-quan-xian-zhi-xing.md",
+      "section": "Deep Dive",
+      "group": "身份认证与协作权限",
+      "level": "Advanced"
+    },
+    {
+      "slug": "12-wen-jian-jie-xi-yu-zi-yuan-cun-chu-jing-zhun-jie-xi-zheng-wen-zhuan-huan-yu-tu-pian-lian-jie-hui-xie",
+      "title": "文件解析与资源存储：精准解析、正文转换与图片链接回写",
+      "file": "12-wen-jian-jie-xi-yu-zi-yuan-cun-chu-jing-zhun-jie-xi-zheng-wen-zhuan-huan-yu-tu-pian-lian-jie-hui-xie.md",
+      "section": "Deep Dive",
+      "group": "文档管理与内容治理",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "13-wen-dang-sheng-ming-zhou-qi-cao-gao-ti-shen-fa-bu-gui-dang-yu-suo-yin-lian-dong",
+      "title": "文档生命周期：草稿、提审、发布、归档与索引联动",
+      "file": "13-wen-dang-sheng-ming-zhou-qi-cao-gao-ti-shen-fa-bu-gui-dang-yu-suo-yin-lian-dong.md",
+      "section": "Deep Dive",
+      "group": "文档管理与内容治理",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "14-nei-rong-wei-hu-fen-lei-guan-li-zheng-wen-geng-xin-yu-li-shi-ban-ben-kuai-zhao",
+      "title": "内容维护：分类管理、正文更新与历史版本快照",
+      "file": "14-nei-rong-wei-hu-fen-lei-guan-li-zheng-wen-geng-xin-yu-li-shi-ban-ben-kuai-zhao.md",
+      "section": "Deep Dive",
+      "group": "文档管理与内容治理",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-wen-dang-hu-dong-yu-tong-zhi-ping-lun-dian-zan-shou-cang-ji-xiao-xi-guan-li",
+      "title": "文档互动与通知：评论、点赞、收藏及消息管理",
+      "file": "15-wen-dang-hu-dong-yu-tong-zhi-ping-lun-dian-zan-shou-cang-ji-xiao-xi-guan-li.md",
+      "section": "Deep Dive",
+      "group": "文档管理与内容治理",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-fen-xiang-lian-jie-an-quan-fang-wen-kou-ling-you-xiao-qi-yu-che-xiao-ji-zhi",
+      "title": "分享链接安全：访问口令、有效期与撤销机制",
+      "file": "16-fen-xiang-lian-jie-an-quan-fang-wen-kou-ling-you-xiao-qi-yu-che-xiao-ji-zhi.md",
+      "section": "Deep Dive",
+      "group": "文档管理与内容治理",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "17-xiao-xi-qu-dong-de-zhi-shi-guan-xian-ren-wu-fa-bu-dui-lie-xiao-fei-yu-yi-chang-chu-li-bian-jie",
+      "title": "消息驱动的知识管线：任务发布、队列消费与异常处理边界",
+      "file": "17-xiao-xi-qu-dong-de-zhi-shi-guan-xian-ren-wu-fa-bu-dui-lie-xiao-fei-yu-yi-chang-chu-li-bian-jie.md",
+      "section": "Deep Dive",
+      "group": "异步处理与知识索引",
+      "level": "Advanced"
+    },
+    {
+      "slug": "18-wen-dang-fen-kuai-yu-xiang-liang-hua-shang-xia-wen-zu-zhi-pi-liang-qian-ru-yu-suo-yin-zhong-jian",
+      "title": "文档分块与向量化：上下文组织、批量嵌入与索引重建",
+      "file": "18-wen-dang-fen-kuai-yu-xiang-liang-hua-shang-xia-wen-zu-zhi-pi-liang-qian-ru-yu-suo-yin-zhong-jian.md",
+      "section": "Deep Dive",
+      "group": "异步处理与知识索引",
+      "level": "Advanced"
+    },
+    {
+      "slug": "19-wen-dang-ji-quan-wen-sou-suo-zhong-wen-fen-ci-cha-xun-jie-kou-yu-ke-jian-xing-guo-lu",
+      "title": "文档级全文搜索：中文分词、查询接口与可见性过滤",
+      "file": "19-wen-dang-ji-quan-wen-sou-suo-zhong-wen-fen-ci-cha-xun-jie-kou-yu-ke-jian-xing-guo-lu.md",
+      "section": "Deep Dive",
+      "group": "异步处理与知识索引",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "20-zhi-shi-tu-pu-gou-jian-jie-gou-hua-shi-ti-guan-xi-chou-qu-tu-shu-ju-xie-ru-yu-qing-li",
+      "title": "知识图谱构建：结构化实体关系抽取、图数据写入与清理",
+      "file": "20-zhi-shi-tu-pu-gou-jian-jie-gou-hua-shi-ti-guan-xi-chou-qu-tu-shu-ju-xie-ru-yu-qing-li.md",
+      "section": "Deep Dive",
+      "group": "异步处理与知识索引",
+      "level": "Advanced"
+    },
+    {
+      "slug": "21-kua-suo-yin-tong-bu-fa-bu-zhong-jian-shan-chu-qing-li-yu-ke-jian-xing-geng-xin",
+      "title": "跨索引同步：发布重建、删除清理与可见性更新",
+      "file": "21-kua-suo-yin-tong-bu-fa-bu-zhong-jian-shan-chu-qing-li-yu-ke-jian-xing-geng-xin.md",
+      "section": "Deep Dive",
+      "group": "异步处理与知识索引",
+      "level": "Advanced"
+    },
+    {
+      "slug": "22-hun-he-jian-suo-yu-jing-pai-guan-jian-ci-zhao-hui-xiang-liang-zhao-hui-dao-shu-pai-ming-rong-he-ji-jiang-ji-ce-lue",
+      "title": "混合检索与精排：关键词召回、向量召回、倒数排名融合及降级策略",
+      "file": "22-hun-he-jian-suo-yu-jing-pai-guan-jian-ci-zhao-hui-xiang-liang-zhao-hui-dao-shu-pai-ming-rong-he-ji-jiang-ji-ce-lue.md",
+      "section": "Deep Dive",
+      "group": "智能检索与对话",
+      "level": "Advanced"
+    },
+    {
+      "slug": "23-zi-gua-ying-wen-da-bian-pai-yi-tu-lu-you-xiang-guan-xing-ping-gu-yu-cha-xun-gai-xie-zhong-shi",
+      "title": "自适应问答编排：意图路由、相关性评估与查询改写重试",
+      "file": "23-zi-gua-ying-wen-da-bian-pai-yi-tu-lu-you-xiang-guan-xing-ping-gu-yu-cha-xun-gai-xie-zhong-shi.md",
+      "section": "Deep Dive",
+      "group": "智能检索与对话",
+      "level": "Advanced"
+    },
+    {
+      "slug": "24-duo-lai-yuan-hui-da-sheng-cheng-zhi-shi-ku-tu-pu-lian-wang-bu-chong-yu-yin-yong-su-yuan",
+      "title": "多来源回答生成：知识库、图谱、联网补充与引用溯源",
+      "file": "24-duo-lai-yuan-hui-da-sheng-cheng-zhi-shi-ku-tu-pu-lian-wang-bu-chong-yu-yin-yong-su-yuan.md",
+      "section": "Deep Dive",
+      "group": "智能检索与对话",
+      "level": "Advanced"
+    },
+    {
+      "slug": "25-liu-shi-zhi-neng-ti-yu-qian-duan-ji-cheng-gong-ju-diao-yong-guo-cheng-shi-jian-he-xiao-xi-liu-xie-yi",
+      "title": "流式智能体与前端集成：工具调用、过程事件和消息流协议",
+      "file": "25-liu-shi-zhi-neng-ti-yu-qian-duan-ji-cheng-gong-ju-diao-yong-guo-cheng-shi-jian-he-xiao-xi-liu-xie-yi.md",
+      "section": "Deep Dive",
+      "group": "智能检索与对话",
+      "level": "Advanced"
+    },
+    {
+      "slug": "26-hui-hua-yu-xiao-xi-guan-li-li-shi-jia-zai-hui-hua-gui-shu-ji-chi-jiu-hua",
+      "title": "会话与消息管理：历史加载、会话归属及持久化",
+      "file": "26-hui-hua-yu-xiao-xi-guan-li-li-shi-jia-zai-hui-hua-gui-shu-ji-chi-jiu-hua.md",
+      "section": "Deep Dive",
+      "group": "智能检索与对话",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "27-fen-ceng-ji-yi-she-ji-duan-qi-shang-xia-wen-chang-qi-ji-yi-yu-yong-hu-shi-shi-ge-chi",
+      "title": "分层记忆设计：短期上下文、长期记忆与用户事实隔离",
+      "file": "27-fen-ceng-ji-yi-she-ji-duan-qi-shang-xia-wen-chang-qi-ji-yi-yu-yong-hu-shi-shi-ge-chi.md",
+      "section": "Deep Dive",
+      "group": "智能检索与对话",
+      "level": "Advanced"
+    },
+    {
+      "slug": "28-wen-da-zhi-liang-ping-ce-jin-biao-shu-ju-gong-ju-ce-lue-gai-xie-xing-wei-yu-da-an-ke-xin-du",
+      "title": "问答质量评测：金标数据、工具策略、改写行为与答案可信度",
+      "file": "28-wen-da-zhi-liang-ping-ce-jin-biao-shu-ju-gong-ju-ce-lue-gai-xie-xing-wei-yu-da-an-ke-xin-du.md",
+      "section": "Deep Dive",
+      "group": "质量保障与运行维护",
+      "level": "Advanced"
+    },
+    {
+      "slug": "29-lian-lu-ke-guan-ce-xing-mo-xing-diao-yong-zhui-zong-jian-suo-kuai-zhao-yu-shi-yan-fen-xi",
+      "title": "链路可观测性：模型调用追踪、检索快照与实验分析",
+      "file": "29-lian-lu-ke-guan-ce-xing-mo-xing-diao-yong-zhui-zong-jian-suo-kuai-zhao-yu-shi-yan-fen-xi.md",
+      "section": "Deep Dive",
+      "group": "质量保障与运行维护",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "30-kai-fa-yu-yun-wei-jian-cha-ce-shi-pei-zhi-chai-yi-gou-jian-bu-shu-yi-lai-jian-kang-ji-an-quan-jia-gu",
+      "title": "开发与运维检查：测试配置差异、构建部署、依赖健康及安全加固",
+      "file": "30-kai-fa-yu-yun-wei-jian-cha-ce-shi-pei-zhi-chai-yi-gou-jian-bu-shu-yi-lai-jian-kang-ji-an-quan-jia-gu.md",
+      "section": "Deep Dive",
+      "group": "质量保障与运行维护",
+      "level": "Intermediate"
+    }
+  ]
+}

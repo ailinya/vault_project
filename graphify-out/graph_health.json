@@ -1,0 +1,244 @@
+{
+  "node_count": 1874,
+  "unverified_node_count": 0,
+  "raw_edge_count": 4771,
+  "non_object_edges": 0,
+  "missing_endpoint_edges": 0,
+  "dangling_endpoint_edges": 0,
+  "external_reference_edges": 14,
+  "self_loop_edges": 3,
+  "valid_candidate_edges": 4757,
+  "exact_duplicate_edges": 0,
+  "directed_unique_endpoint_pairs": 4431,
+  "directed_same_endpoint_collapsed_edges": 326,
+  "undirected_unique_endpoint_pairs": 4431,
+  "undirected_same_endpoint_collapsed_edges": 326,
+  "same_endpoint_group_count": 133,
+  "relation_variant_groups": 13,
+  "source_file_variant_groups": 0,
+  "source_location_variant_groups": 119,
+  "context_variant_groups": 3,
+  "post_build_graph_type": "Graph",
+  "post_build_node_count": 1879,
+  "post_build_edge_count": 4445,
+  "post_build_error": "",
+  "producer_suppression": {
+    "path": "C:\\Users\\Irene\\.pyenv\\pyenv-win\\versions\\3.14.8\\Lib\\site-packages\\graphify\\extract.py",
+    "total_sites": 12,
+    "sites": [
+      {
+        "line": 1859,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2554,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2556,
+        "name": "seen_doc_refs",
+        "tuple_arity": 0,
+        "sample": "seen_doc_refs: set[str] = set()"
+      },
+      {
+        "line": 3223,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 3370,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n.get(\"id\") for n in nodes}"
+      },
+      {
+        "line": 4784,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 4970,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 8790,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 8898,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 8977,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 9502,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 9503,
+        "name": "seen_edges",
+        "tuple_arity": 4,
+        "sample": "seen_edges: set[tuple[str, str, str, str | None]] = set()"
+      }
+    ],
+    "error": ""
+  },
+  "examples": [
+    {
+      "source": "src_document_entities_document_entity_documententity",
+      "target": "src_document_entities_document_entity_ts_column",
+      "edge_count": 20,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "src/document/entities/document.entity.ts"
+      ],
+      "source_locations": [
+        "L101",
+        "L113",
+        "L122",
+        "L131",
+        "L22",
+        "L26",
+        "L30",
+        "L34",
+        "L43",
+        "L52",
+        "L61",
+        "L65",
+        "L69",
+        "L73",
+        "L77",
+        "L81",
+        "L85",
+        "L89",
+        "L93",
+        "L97"
+      ],
+      "contexts": [
+        "decorator"
+      ]
+    },
+    {
+      "source": "src_user_entities_permission_entity_permissionentity",
+      "target": "src_user_entities_permission_entity_ts_column",
+      "edge_count": 11,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "src/user/entities/permission.entity.ts"
+      ],
+      "source_locations": [
+        "L15",
+        "L23",
+        "L26",
+        "L30",
+        "L33",
+        "L36",
+        "L39",
+        "L42",
+        "L45",
+        "L48",
+        "L57"
+      ],
+      "contexts": [
+        "decorator"
+      ]
+    },
+    {
+      "source": "src_user_dto_permission_dto_updatepermissiondto",
+      "target": "src_user_dto_permission_dto_ts_isoptional",
+      "edge_count": 10,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "src/user/dto/permission.dto.ts"
+      ],
+      "source_locations": [
+        "L54",
+        "L58",
+        "L62",
+        "L67",
+        "L71",
+        "L75",
+        "L79",
+        "L83",
+        "L87",
+        "L92"
+      ],
+      "contexts": [
+        "decorator"
+      ]
+    },
+    {
+      "source": "src_user_entities_user_entity_userentity",
+      "target": "src_user_entities_user_entity_ts_column",
+      "edge_count": 9,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "src/user/entities/user.entity.ts"
+      ],
+      "source_locations": [
+        "L16",
+        "L19",
+        "L22",
+        "L25",
+        "L28",
+        "L32",
+        "L36",
+        "L39",
+        "L48"
+      ],
+      "contexts": [
+        "decorator"
+      ]
+    },
+    {
+      "source": "src_document_dto_create_document_dto_createdocumentdto",
+      "target": "src_document_dto_create_document_dto_ts_isstring",
+      "edge_count": 8,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "src/document/dto/create-document.dto.ts"
+      ],
+      "source_locations": [
+        "L11",
+        "L16",
+        "L21",
+        "L26",
+        "L31",
+        "L36",
+        "L46",
+        "L7"
+      ],
+      "contexts": [
+        "decorator"
+      ]
+    }
+  ]
+}
