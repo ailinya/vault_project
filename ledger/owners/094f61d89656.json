@@ -1,7 +1,7 @@
 {
   "identity": {"uuid": "b2a1ddc4-53e8-42c4-bb46-6c357f39fbf8"},
   "tasks": {
-    "20261109-1532-0b3d-筛选南京国企ai岗": {"category": "求职", "created": "2026-11-09 15:32:03", "creator": "b2a1ddc4-53e8-42c4-bb46-6c357f39fbf8", "creator_name": "nanjop", "finished": null, "owner": "b2a1ddc4-53e8-42c4-bb46-6c357f39fbf8", "owner_name": "nanjop", "started": "2026-11-09 15:34:25", "status": "doing", "tags": ["招聘", "国企", "AI", "南京"], "title": "筛选南京国企AI岗", "updated": "2026-11-10 06:41:02", "worklog": "worklog/202611/09-1532-0b3d-筛选南京国企ai岗.md"}
+    "20261109-1532-0b3d-筛选南京国企ai岗": {"category": "求职", "created": "2026-11-09 15:32:03", "creator": "b2a1ddc4-53e8-42c4-bb46-6c357f39fbf8", "creator_name": "nanjop", "finished": null, "owner": "b2a1ddc4-53e8-42c4-bb46-6c357f39fbf8", "owner_name": "nanjop", "started": "2026-11-09 15:34:25", "status": "doing", "tags": ["招聘", "国企", "AI", "南京"], "title": "筛选南京国企AI岗", "updated": "2026-11-10 06:42:13", "worklog": "worklog/202611/09-1532-0b3d-筛选南京国企ai岗.md"}
   },
   "version": "20261022000000"
 }
